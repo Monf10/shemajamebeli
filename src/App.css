@@ -1,0 +1,64 @@
+nav{
+  background-color: blue;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+.left-div{
+  display: flex;
+  margin-left: 350px;
+}
+
+.right-div{
+  display: flex;
+  margin-left: 1250px;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 15px
+}
+
+.user-div{
+  border: 1px solid black;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  margin: 30px;
+}
+
+img{
+  display: block;
+  padding-left: 50px;
+}
+
+.main-div{
+  margin: 50px;
+}
+
+.geo:after{
+  content: "მთავარი გვერდი";
+}
+.geo1:after{
+  content: "მეგობრების სია";
+}
+.geo2:after{
+  content: "პროფილი ";
+}
+
+.eng:after{
+  content: "Home";
+}
+.eng1:after{
+  content: "Friend List";
+}
+.eng2:after{
+  content: "Profile ";
+}
